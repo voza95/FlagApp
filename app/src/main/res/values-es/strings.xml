@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flag Quiz</string>
+    <string name="admob_app_id">ca-app-pub-7078826783883640~2241416852</string>
+    <string name="ad_unit_id">ca-app-pub-7078826783883640/7156554383</string>
+    <string name="banner_home_footer">ca-app-pub-7078826783883640/6452124604</string>
+    <string name="interstitial_full_screen">ca-app-pub-7078826783883640/6154888937</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7078826783883640/6452124604</string>
+    <string name="banner_top">ca-app-pub-7078826783883640/6452124604</string>
+    <string name="native_advanced">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="test_device_id">3456ED1DB4EB693F5DB9C5BCB95AAFAC</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-7078826783883640/7156554383</string>
+    <string name="title_activity_start">StartActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="my_own_title">Flag Quiz</string>
+
+    <string name="my_own_message">Califica tu aplicación en playstore.</string>
+    <string name="my_own_rate">Califica ahora</string>
+    <string name="my_own_thanks">No, gracias</string>
+    <string name="my_own_cancel">Luego</string>
+    <string name="name">Hola</string>
+    <string name="time_quiz">Time Quiz</string>
+    <string name="guess_country">Adivina el país</string>
+    <string name="guess_flag">Adivina la bandera</string>
+    <string name="learn">Aprender</string>
+    <string name="more_apps">Más aplicaciones</string>
+    <string name="details">2 minutos para responder 10 preguntas.</string>
+    <string name="details2">Elija el nombre correcto del país por Flag.</string>
+    <string name="details3">Elija la bandera correcta por el nombre del país.</string>
+    <string name="details4">208 países y sus banderas.</string>
+    <string name="details5">Mira algunas de nuestras increíbles aplicaciones</string>
+
+
+    <string name="pref_setting_customize">Idioma</string>
+    <string name="pref_language_label">Spanish</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!--<string name="app_language_pref_key" translatable="false">app_language_pref_key</string>-->
+
+
+
+    <string-array name="pref_language_titles">
+        <item>English</item>
+        <item>Français</item>
+        <item>हिन्दी</item>
+        <item>Deutsche</item>
+        <item>Español</item>
+    </string-array>
+    <string-array name="pref_language_values">
+        <item>en</item>
+        <item>fr</item>
+        <item>hi</item>
+        <item>de</item>
+        <item>it</item>
+    </string-array>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="one_time">Select your Prefred language</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="time_left">Time Left</string>
+    <string name="time_finish">Done!</string>
+    <string name="next_btn">Next</string>
+    <string name="Continue">Continue</string>
+    <string name="total_que">Total Question: </string>
+    <string name="attempt">Attempt Questions: </string>
+    <string name="score">Your Score : </string>
+    <string name="worng">Wrong Answers: </string>
+
+    <string name="one_time_fr">Select your Prefred language</string>
+    <string name="time_left_fr">temps restant</string>
+    <string name="time_finish_fr">Terminé</string>
+    <string name="next_btn_fr">Prochain</string>
+    <string name="Continue_fr">Continuer</string>
+    <string name="total_que_fr">Question totale: </string>
+    <string name="attempt_fr">Tenter des questions: </string>
+    <string name="score_fr">Ton score : </string>
+    <string name="worng_fr">Mauvaise réponse: </string>
+
+    <string name="one_time_de">Select your Prefred language</string>
+    <string name="time_left_de">Übrige Zeit</string>
+    <string name="time_finish_de">Erledigt</string>
+    <string name="next_btn_de">Nächster</string>
+    <string name="Continue_de">Fortsetzen</string>
+    <string name="total_que_de">Gesamtfrage: </string>
+    <string name="attempt_de">Versuch Fragen: </string>
+    <string name="score_de">Ihr Ergebnis: </string>
+    <string name="worng_de">Falsche Antwort: </string>
+
+    <string name="one_time_es">Select your Prefred language</string>
+    <string name="time_left_es">Tiempo restante</string>
+    <string name="time_finish_es">Hecho</string>
+    <string name="next_btn_es">Siguiente</string>
+    <string name="Continue_es">Continuar</string>
+    <string name="total_que_es">Pregunta total: </string>
+    <string name="attempt_es">Intento de preguntas: </string>
+    <string name="score_es">Tu puntuación : </string>
+    <string name="worng_es">Incorrecta: </string>
+
+    <string name="one_time_hi">Select your Prefred language</string>
+    <string name="time_left_hi">शेष समय </string>
+    <string name="time_finish_hi">समाप्त</string>
+    <string name="next_btn_hi">अगला</string>
+    <string name="Continue_hi">जारी रखें</string>
+    <string name="total_que_hi">कुल प्रश्न: </string>
+    <string name="attempt_hi">प्रयास प्रश्न: </string>
+    <string name="score_hi">अपने स्कोर : </string>
+    <string name="worng_hi">गलत जवाब: </string>
+
+    <string name="time_left_en">Time Left</string>
+    <string name="time_finish_en">Done!</string>
+    <string name="next_btn_en">Next</string>
+    <string name="Continue_en">Continue</string>
+    <string name="total_que_en">Total Question: </string>
+    <string name="attempt_en">Attempt Questions: </string>
+    <string name="score_en">Your Score : </string>
+    <string name="worng_en">Wrong Answers: </string>
+
+</resources>

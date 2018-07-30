@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent" >
+    <ImageView
+        android:id="@+id/dialog_image"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/heart"
+        android:layout_marginLeft="50dp"
+        android:contentDescription="@string/app_name"
+        />
+    <TextView
+        android:id="@+id/dialog_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#FAFAFA"
+
+        android:text=" Get 3 more lifes for watching ad"
+        android:layout_alignBottom="@+id/dialog_image"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/dialog_image"
+        />
+    <!--<Button-->
+        <!--android:id="@+id/ok_button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/dialog_text"-->
+
+        <!--android:layout_marginTop="60dp"-->
+        <!--android:padding="5dp"-->
+        <!--android:textColor="#fff"-->
+        <!--android:background="#9E9E9E"-->
+        <!--android:text="Ok" />-->
+    <!--<Button-->
+        <!--android:id="@+id/cancel_button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/dialog_text"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginTop="60dp"-->
+        <!--android:padding="5dp"-->
+        <!--android:textColor="#fff"-->
+        <!--android:background="#9E9E9E"-->
+        <!--android:text="Cancel" />-->
+</RelativeLayout>

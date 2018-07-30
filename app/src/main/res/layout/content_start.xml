@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.wondrousapps.flagquiz.activity.StartActivity"
+    tools:showIn="@layout/app_bar_start">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+       />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/banner_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+
+</RelativeLayout>
+<!--<LinearLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:orientation="vertical"-->
+    <!--&gt;-->
+<!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="2"-->
+    <!--android:layout_marginTop="4dp"-->
+    <!--android:orientation="horizontal">-->
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="Time Play"-->
+        <!--android:textColor="#fff"-->
+        <!--android:layout_weight="1"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:layout_margin="2dp"-->
+        <!--android:background="#9E9E9E"-->
+        <!--android:id="@+id/flags_play"/>-->
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#9E9E9E"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:layout_weight="1"-->
+        <!--android:textColor="#fff"-->
+        <!--android:text="Life Play"-->
+        <!--android:layout_margin="2dp"-->
+        <!--android:id="@+id/life_flags_play"/>-->
+<!--</LinearLayout>-->
+<!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="2"-->
+    <!--android:layout_marginBottom="4dp"-->
+    <!--android:orientation="horizontal">-->
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#9E9E9E"-->
+        <!--android:text="Flag Guess"-->
+
+        <!--android:layout_weight="1"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#fff"-->
+        <!--android:layout_margin="2dp"-->
+        <!--android:id="@+id/flag_guess"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#9E9E9E"-->
+        <!--android:text="Flag Check"-->
+        <!--android:layout_weight="1"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#fff"-->
+
+        <!--android:layout_margin="2dp"-->
+        <!--android:id="@+id/flag_check"-->
+        <!--/>-->
+<!--</LinearLayout>-->
+<!--</LinearLayout>-->
